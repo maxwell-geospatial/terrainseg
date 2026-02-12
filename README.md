@@ -14,10 +14,19 @@ Models can be trained using DTM chips and associated masks that have been pre-ge
 
 ## Installation
 
+We recommend:
+
+1. Creating a virtual Python environment using Python 3.11 or 3.12
+2. Installing PyTorch and TorchVision as instructed on the [PyTorch webpage](https://pytorch.org/)
+3. Installing the other dendencies using pip: rasterio, pandas, geopandas, matplotlib, torchmetrics, segmentation-models-pytorch, and albumentations
+4. Installing terrainseg
+
 ```bash
 $ pip install terrainseg
 $ pip install git+https://github.com/maxwell-geospatial/terrainseg.git
 ```
+
+**Note**: If you want to use GPU acceleration, you will need to install and set up CUDA and cuDNN. We used CUDA verion 12.6. 
 
 ## Usage
 

@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "terrainseg"
-version = "0.1.0"
+version = "0.1.6"
 description = "Geomorphic semantic segmentation using DTMs and LSPs."
 authors = ["Aaron Maxwell"]
 license = "MIT"
@@ -10,12 +10,12 @@ readme = "README.md"
 python = "^3.11,<3.14"
 torch = "^2.10.0"
 pandas = "^3.0.0"
-geopandas = "^1.1.2"
+geopandas = "^1.1.0"
 matplotlib = "^3.10.8"
 torchmetrics = "^1.8.2"
-albumentations = "^2.0.8"
 segmentation-models-pytorch = "^0.5.0"
 rasterio = "^1.4.4"
+albumentations = "^2.0.8"
 
 
 [build-system]

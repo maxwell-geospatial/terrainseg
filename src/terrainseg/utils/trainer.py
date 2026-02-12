@@ -581,8 +581,8 @@ class unifiedFocalLoss(nn.Module):
         if self.lambda_ <= 0.0:
             return regMetric
         return (self.lambda_ * distMetric) + ((1.0 - self.lambda_) * regMetric)
-
-
+    
+    
 def terrainTrainer(saveFolder,
                    trainDF: Union[pd.DataFrame, gpd.GeoDataFrame], 
                    valDF: Union[pd.DataFrame, gpd.GeoDataFrame],
